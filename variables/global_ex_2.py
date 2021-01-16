@@ -1,10 +1,10 @@
 x = "awesome"
 
 
-def myfunc():
+def myFunc():
     x = "fantastic"
     print("[-] Python is " + x)
 
 
-myfunc()
+myFunc()
 print("Python is " + x)
