@@ -1,0 +1,14 @@
+# EX 1
+thisset = {"apple", "banana", "cherry"}
+thisset.add("orange")
+print(thisset)
+
+# Output : {'cherry','apple', 'banana', 'orange'}
+# Set ไม่การันตีตำแหน่งคือมันจะสลับไปเรื่อยๆ แต่ค่ายังมีเท่าเดิม
+
+# EX 2
+thisset = {"apple", "banana", "cherry"}
+tropical = {"pineapple", "mango", "papaya"}
+thisset.update(tropical)
+print(thisset)
+# Output : {'apple','cherry','pineapple','mango', 'banana', 'papaya'}
